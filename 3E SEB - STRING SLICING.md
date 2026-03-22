@@ -3,12 +3,12 @@
 
 ---
 
-### AIM  
+### AIM:  
 To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
 
 ---
 
-### ALGORITHM
+### ALGORITHM:
 
 1. Begin the program.  
 2. Accept a string as input.  
@@ -20,11 +20,15 @@ To write a Python function that accepts a string and forms a new string by rever
 
 ---
 
-### PROGRAM
-
+### PROGRAM:
 ```
-```
+def slice(a):
+    b=a[9:1:-2]
+    print(f"The reversed string is '{b}'")
+````
 
-### OUTPUT
+### OUTPUT:
+<img width="793" height="193" alt="image" src="https://github.com/user-attachments/assets/3257e73e-f5b2-4f1e-a922-bda205a3d6a6" />
 
-### RESULT
+### RESULT:
+Thus a Python function that accepts a string and forms a new string by reversing the characters from the 4th position to the 10th position with alternate characters, and then prints the new string has been implemented and executed.
