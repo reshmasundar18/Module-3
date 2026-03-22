@@ -3,12 +3,12 @@
 
 ---
 
-### AIM  
+### AIM:
 To write a Python program to create a tuple containing all multiples of 5 up to a given number **N**.
 
 ---
 
-### ALGORITHM
+### ALGORITHM:
 
 1. Begin the program.  
 2. Accept an integer `N` from the user.  
@@ -19,11 +19,19 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 
 ---
 
-### PROGRAM
-
+### PROGRAM:
 ```
+l=[]
+n=int(input())
+for i in range(5,n,5):
+    l.append(i)
+t=tuple(l)
+print(t)
 ```
 
-### OUTPUT
+### OUTPUT:
+<img width="786" height="228" alt="image" src="https://github.com/user-attachments/assets/4e87a9f2-9086-4600-942e-5bff468fc40b" />
 
-### RESULT
+
+### RESULT:
+Thus a Python program to create a tuple containing all multiples of 5 up to a given number N has been implemented and executed.
