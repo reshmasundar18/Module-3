@@ -3,12 +3,12 @@
 
 ---
 
-### AIM  
+### AIM:  
 To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
 
 ---
 
-### ALGORITHM
+### ALGORITHM:
 
 1. Begin the program.  
 2. Input the original string `str1` and the word to be replaced `replace_str`.  
@@ -20,11 +20,18 @@ To write a Python function to accept a string, identify a word to be replaced, a
 
 ---
 
-### PROGRAM
-
+### PROGRAM:
 ```
+def string_length(s):
+    print(f"The length of the string '{s}' is {len(s)}")
+
+# Example usage
+string = input()
+string_length(string)
 ```
+### OUTPUT:
+<img width="752" height="265" alt="image" src="https://github.com/user-attachments/assets/ab6484cf-15d4-4e7e-93b2-8e087520e9f8" />
 
-### OUTPUT
 
-### RESULT
+### RESULT:
+Thus a python program to find the length of the given string has been successfully implemneted.
